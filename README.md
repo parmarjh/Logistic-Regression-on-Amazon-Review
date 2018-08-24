@@ -1,4 +1,4 @@
-# Logistic Regression on Amazon Reviews (Part I)#
+# Logistic Regression on Amazon Reviews (Part I) #
 
 ## Amazon Fine Food Review Dataset ##
 
@@ -70,17 +70,17 @@ BoW will result in a sparse matrix with huge number of features as it creates a 
 
 For Binary BoW feature representation, CountVectorizer is declared as float, as the values can take non-integer values on further processing. Top n words are found out after checking for multicollinearity.
 
-i1
+![rscv](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_rscv.PNG)
 
-i2
+![gscv](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_gscv.PNG)
 
 ## Sparsity vs F1 score Plot ##
 
 The variation of sparsity corresponding to varying values of lambda is plotted and the lambda with the highest accuracy is identified. The optimal model can be found out using the sparsity vs f1 score plot also.
 
-spar
+![spar](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/sp.PNG)
 
-score
+![score](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/scorep.PNG)
 
 ## tf-IDF ##
 
@@ -136,9 +136,9 @@ Multicollinear Features = 7557
 
 **Length of Weight Vector (After Removing Collinearity): 7557**
 
-rv2
+![rscv2](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_rscv2.PNG)
 
-gv2
+![gscv2](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_gscv2.PNG)
 
 ## Word2Vec ##
 
@@ -197,9 +197,9 @@ Multicollinear Features = 9
 
 **Length of Weight Vector (After Removing Collinearity): 291**
 
-r3
+![rscv3](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_rscv3.PNG)
 
-g3
+![gscv3](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_gscv3.PNG)
 
 ## TF-IDWeighted W2V ##
 
@@ -258,13 +258,13 @@ Multicollinear Features = 136
 
 **Length of Weight Vector (After Removing Collinearity): 164**
 
-r4
+![rscv4](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_rscv4.PNG)
 
-g4
+![gscv4](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_gscv4.PNG)
 
 ## Summary Statistics ##
 
-sum
+![sum](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/summary.PNG)
 
 ## Observations ##
 
