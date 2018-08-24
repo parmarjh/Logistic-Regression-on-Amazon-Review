@@ -277,3 +277,11 @@ out by GridSearchCV and RandomSearchCV. (Please note that, Sparsity = # of non-z
 will yield C = 1 (+/- 0.05) approximately, within say, 100 iterations. But if C value is set as a uniform distribution between 0 and say, 10000, then the error in C value is found to be very high.
 
 4. Alternatively, **if the range of C value is wide, to arrive at optimal C, we need to increase the number of iterations** significantly. It is seen that, when iterations are increased from 100 to 1000, the C value is converging to optimum. But the **time complexity of such an approach would be much higher**.
+
+5. Because of 3 and 4, it is suggested to **use GridSearchCV for faster convergence when the number of dimensions are less**. But, when the # of hyperparameters increase, the # of times the model needs to be trained, increases exponentially. If there are k hyperparameters, then mˆk trainings would be required. Hence, **grid search is not good when hyperparameters are more**. In Logistic Regression, there could be only 2 hyperparameters. But there are cases in deep learning where there are 10s or 100s of hyper parameters.
+
+6. **Random Search** is almost as good as Grid search, and also **faster than Grid search when # of hyper parameters is large**. But since the number of iterations required to find the optimal lambda for multiple dimensions is much more, more processing power may be required. Still, it would perform better than the exponential time requirement of Grid Search.
+
+7. The elements of **W2V vector doesnt correspond to each word feature, like in the BoW vector or TF-ID vector**. Hence the weight vector w, that you get, which would be of the same length as W2V vector, once you fit logistic regression, doesnt correlate to word features. **Hence, we cannot find the top ‘n’ words when we use Word2Vec based featurization**. But we can still find the top ‘n’ features based on the weight vector, but that do not correspond to any word, hence not interpretable.
+
+8. The best method is found to be **Logistic Regression on Bag of Words**. This method has the highest F1 Score, amongst all the 4 methods. Hence, Bag of Words featurization with Logistic Regression is the classifer of choice.
