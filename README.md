@@ -252,11 +252,11 @@ True Negative Rate(TNR) = 0.58 <br/>
 False Positive Rate(FPR) = 0.42 <br/>
 False Negative Rate(FNR) = 0.51 <br/>
 
-**Length of Weight Vector (Before Removing Collinearity): 300**
-Distance between Weight vectors before & after Perturbation = 12.02
-Multicollinear Features = 136
+**Length of Weight Vector (Before Removing Collinearity): 300** <br/>
+Distance between Weight vectors before & after Perturbation = 12.02 <br/>
+Multicollinear Features = 136 <br/>
 
-**Length of Weight Vector (After Removing Collinearity): 164**
+**Length of Weight Vector (After Removing Collinearity): 164** <br/>
 
 ![rscv4](https://github.com/AdroitAnandAI/Logistic-Regression-on-Amazon-Reviews/blob/master/images/cm_rscv4.PNG)
 
