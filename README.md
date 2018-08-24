@@ -88,51 +88,51 @@ Sparse matrix generated from tf-IDF is fed in to GridSearch and RandomSearch Log
 
 The optimal value of lambda using RandomizedSearchCV is 0.002245.
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 86.033333
-Precision = 91.228756
-Recall = 92.310733
-F1 Score = 91.766555
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 86.033333 <br/>
+Precision = 91.228756 <br/>
+Recall = 92.310733 <br/>
+F1 Score = 91.766555 <br/>
 
-**Confusion Matrix**
-True Negatives = 492
-True Positives = 4670
-False Negatives = 389
-False Positives = 449
+**Confusion Matrix** <br/>
+True Negatives = 492 <br/>
+True Positives = 4670 <br/>
+False Negatives = 389 <br/>
+False Positives = 449 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
-True Positive Rate(TPR) = 0.92
-True Negative Rate(TNR) = 0.52
-False Positive Rate(FPR) = 0.48
-False Negative Rate(FNR) = 0.08
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
+True Positive Rate(TPR) = 0.92 <br/>
+True Negative Rate(TNR) = 0.52 <br/>
+False Positive Rate(FPR) = 0.48 <br/>
+False Negative Rate(FNR) = 0.08 <br/>
 
 **GridSearchCV: Best C: 0.001**
 
 The optimal value of lambda using GridSearchCV is 1000.000000.
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 89.283333
-Precision = 90.000000
-Recall = 98.201226
-F1 Score = 93.921921
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 89.283333 <br/>
+Precision = 90.000000 <br/>
+Recall = 98.201226 <br/>
+F1 Score = 93.921921 <br/>
 
-**Confusion Matrix**
-True Negatives = 389
-True Positives = 4968
-False Negatives = 91
-False Positives = 552
+**Confusion Matrix** <br/>
+True Negatives = 389 <br/>
+True Positives = 4968 <br/>
+False Negatives = 91 <br/>
+False Positives = 552 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
-True Positive Rate(TPR) = 0.98
-True Negative Rate(TNR) = 0.41
-False Positive Rate(FPR) = 0.59
-False Negative Rate(FNR) = 0.02
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
+True Positive Rate(TPR) = 0.98 <br/>
+True Negative Rate(TNR) = 0.41 <br/>
+False Positive Rate(FPR) = 0.59 <br/>
+False Negative Rate(FNR) = 0.02 <br/>
 
-**Length of Weight Vector (Before Removing Collinearity): 15114**
-Distance between Weight vectors before & after Perturbation = 2.93
-Multicollinear Features = 7557
+**Length of Weight Vector (Before Removing Collinearity): 15114** <br/>
+Distance between Weight vectors before & after Perturbation = 2.93 <br/>
+Multicollinear Features = 7557 <br/>
 
 **Length of Weight Vector (After Removing Collinearity): 7557**
 
@@ -148,52 +148,52 @@ Performance metrics of optimal LR with W2V featurization is found. But we cannot
 
 **The optimal value of lambda using RandomizedSearchCV is 103.277877.**
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 84.250000
-Precision = 84.386493
-Recall = 99.782566
-F1 Score = 91.440993
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 84.250000 <br/>
+Precision = 84.386493 <br/>
+Recall = 99.782566 <br/>
+F1 Score = 91.440993 <br/>
 
-**Confusion Matrix**
-True Negatives = 7
-True Positives = 5048
-False Negatives = 11
-False Positives = 934
+**Confusion Matrix** <br/>
+True Negatives = 7 <br/>
+True Positives = 5048 <br/>
+False Negatives = 11 <br/>
+False Positives = 934 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
-True Positive Rate(TPR) = 1.0
-True Negative Rate(TNR) = 0.01
-False Positive Rate(FPR) = 0.99
-False Negative Rate(FNR) = 0.0
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
+True Positive Rate(TPR) = 1.0 <br/>
+True Negative Rate(TNR) = 0.01 <br/>
+False Positive Rate(FPR) = 0.99 <br/>
+False Negative Rate(FNR) = 0.0 <br/>
 
 **GridSearchCV: Best C: 100**
 
 The optimal value of lambda using GridSearchCV is 0.010000.
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 52.150000
-Precision = 86.515354
-Recall = 51.235422
-F1 Score = 64.357542
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 52.150000 <br/>
+Precision = 86.515354 <br/>
+Recall = 51.235422 <br/>
+F1 Score = 64.357542 <br/>
 
-**Confusion Matrix**
-True Negatives = 537
-True Positives = 2592
-False Negatives = 2467
-False Positives = 404
+**Confusion Matrix** <br/>
+True Negatives = 537 <br/>
+True Positives = 2592 <br/>
+False Negatives = 2467 <br/>
+False Positives = 404 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
 
-True Positive Rate(TPR) = 0.51
-True Negative Rate(TNR) = 0.57
-False Positive Rate(FPR) = 0.43
-False Negative Rate(FNR) = 0.49
+True Positive Rate(TPR) = 0.51 <br/>
+True Negative Rate(TNR) = 0.57 <br/>
+False Positive Rate(FPR) = 0.43 <br/>
+False Negative Rate(FNR) = 0.49 <br/>
 
-**Length of Weight Vector (Before Removing Collinearity): 300**
-Distance between Weight vectors before & after Perturbation = 0.0
-Multicollinear Features = 9
+**Length of Weight Vector (Before Removing Collinearity): 300** <br/>
+Distance between Weight vectors before & after Perturbation = 0.0 <br/>
+Multicollinear Features = 9 <br/>
 
 **Length of Weight Vector (After Removing Collinearity): 291**
 
@@ -203,54 +203,54 @@ Multicollinear Features = 9
 
 ## TF-IDWeighted W2V ##
 
-Grid Search and Random Search CV using Logistic Regression Best Penalty: l1
+Grid Search and Random Search CV using Logistic Regression Best Penalty: l1 <br/>
 RandomizedSearchCV: Best C: 0.9648400471483856
 
 The optimal value of lambda using RandomizedSearchCV is 1.036441.
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 52.566667
-Precision = 83.540467
-Recall = 54.477169
-F1 Score = 65.948792
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 52.566667 <br/>
+Precision = 83.540467 <br/>
+Recall = 54.477169 <br/>
+F1 Score = 65.948792 <br/>
 
-**Confusion Matrix**
-True Negatives = 398
-True Positives = 2756
-False Negatives = 2303
-False Positives = 543
+**Confusion Matrix** <br/>
+True Negatives = 398 <br/>
+True Positives = 2756 <br/>
+False Negatives = 2303 <br/>
+False Positives = 543 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
 
-True Positive Rate(TPR) = 0.54
-True Negative Rate(TNR) = 0.42
-False Positive Rate(FPR) = 0.58
-False Negative Rate(FNR) = 0.46
+True Positive Rate(TPR) = 0.54 <br/>
+True Negative Rate(TNR) = 0.42 <br/>
+False Positive Rate(FPR) = 0.58 <br/>
+False Negative Rate(FNR) = 0.46 <br/>
 
 GridSearchCV: Best C: 100
 
 **The optimal value of lambda using GridSearchCV is 0.010000.**
 
-**Metric Analysis of Logistic Classifier for Optimal Lamdba**
-Accuracy = 50.833333
-Precision = 86.424870
-Recall = 49.456414
-F1 Score = 62.911743
+**Metric Analysis of Logistic Classifier for Optimal Lamdba** <br/>
+Accuracy = 50.833333 <br/>
+Precision = 86.424870 <br/>
+Recall = 49.456414 <br/>
+F1 Score = 62.911743 <br/>
 
-**Confusion Matrix**
-True Negatives = 548
-True Positives = 2502
-False Negatives = 2557
-False Positives = 393
+**Confusion Matrix** <br/>
+True Negatives = 548 <br/>
+True Positives = 2502 <br/>
+False Negatives = 2557 <br/>
+False Positives = 393 <br/>
 
-Total Actual Positives = 5059
-Total Actual Negatives = 941
+Total Actual Positives = 5059 <br/>
+Total Actual Negatives = 941 <br/>
 
-True Positive Rate(TPR) = 0.49
-True Negative Rate(TNR) = 0.58
-False Positive Rate(FPR) = 0.42
-False Negative Rate(FNR) = 0.51
+True Positive Rate(TPR) = 0.49 <br/>
+True Negative Rate(TNR) = 0.58 <br/>
+False Positive Rate(FPR) = 0.42 <br/>
+False Negative Rate(FNR) = 0.51 <br/>
 
 **Length of Weight Vector (Before Removing Collinearity): 300**
 Distance between Weight vectors before & after Perturbation = 12.02
