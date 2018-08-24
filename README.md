@@ -268,12 +268,12 @@ Multicollinear Features = 136
 
 ## Observations ##
 
-1. From the Sparsity and F1 Score plot, it can be identified that Performance & Sparsity is the best when Log (Lambda) is between 1 and 2. i.e. Lambda = 10ˆ1 ~ 10ˆ2 = 10 ~ 100. The lambda values obtained via plotting method is almost same as the lambda value found
+1. From the Sparsity and F1 Score plot, it can be identified that **Performance & Sparsity is the best when Log (Lambda) is between 1 and 2**. i.e. Lambda = 10ˆ1 ~ 10ˆ2 = 10 ~ 100. The lambda values obtained via plotting method is almost same as the lambda value found
 out by GridSearchCV and RandomSearchCV. (Please note that, Sparsity = # of non-zero elements, in this project).
 
-2. It has also been noticed that, with increasing lambda, the sparsity (# of non-zero elements) has been decreasing steadily. This is an expected behaviour, as L1 regularization is used.
+2. It has also been noticed that, **with increasing lambda, the sparsity (# of non-zero elements) has been decreasing steadily**. This is an expected behaviour, as **L1 regularization** is used.
 
 3. The Lambda values found by GridSearchCV and RandomizedSearchCV are near, only when the range of "C" values is set within a narrow range, around optimum. i.e. if the optimal C = 1 (as per GridSearchCV), then by setting C as a uniform distribution between 0 and 4
 will yield C = 1 (+/- 0.05) approximately, within say, 100 iterations. But if C value is set as a uniform distribution between 0 and say, 10000, then the error in C value is found to be very high.
 
-4. Alternatively, if the range of C value is wide, to arrive at optimal C, we need to increase the number of iterations significantly. It is seen that, when iterations are increased from 100 to 1000, the C value is converging to optimum. But the time complexity of such an approach would be much higher.
+4. Alternatively, **if the range of C value is wide, to arrive at optimal C, we need to increase the number of iterations** significantly. It is seen that, when iterations are increased from 100 to 1000, the C value is converging to optimum. But the **time complexity of such an approach would be much higher**.
